@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-left: 230px;
+    margin-right: 230px;
+    height: 100vh;
+}
+
+img{
+    border: 4px rgb(255, 210, 114) solid;
+    border-radius: 12px;
+    height: 350px;
+    transition: 0.3s;
+}
+
+p{ 
+    font-size: 20px;
+}
+
+button{
+    background-color: rgb(255, 187, 0);
+    color: rgb(0, 0, 0);
+    border: 3px rgb(231, 231, 231) solid;
+    font-size: 17px;
+    padding: 7px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-weight: bolder;
+}
+
+.botinic{
+    margin-top: 180px;
+}
+
+button:hover{
+    font-size: 1.3rem;
+}
+
+a{
+    text-decoration: none;
+    transition: 0.3s;
+    color: white;
+}
+
+a:hover{
+    font-size: 1.3rem;
+}
+
+a:visited{
+    color: white;
+}
+
+img:hover{
+    height: 400px;
+}
